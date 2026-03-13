@@ -12,6 +12,7 @@ import asyncio
 
 try:
     from notebooklm import NotebookLMClient
+    from notebooklm.rpc.types import InfographicOrientation, InfographicStyle, SlideDeckFormat
 except ImportError:
     print(json.dumps({
         "error": (
@@ -67,50 +68,60 @@ async def generate_deliverable(
     Request a deliverable from NotebookLM.
     deliverable_type: infographic | slideshow | flashcards | audio | video | quiz
     """
-    async with await NotebookLMClient.from_storage() as client:
-        prompt_extra = f" Style: {style_note}" if style_note else ""
+    # Map orientation string to enum
+    orient_map = {
+        "portrait": InfographicOrientation.PORTRAIT,
+        "landscape": InfographicOrientation.LANDSCAPE,
+        "square": InfographicOrientation.SQUARE,
+    }
+    orient_enum = orient_map.get(orientation.lower(), InfographicOrientation.PORTRAIT)
 
+    async with await NotebookLMClient.from_storage() as client:
         if deliverable_type == "infographic":
-            result = await client.generate.infographic(
+            status = await client.artifacts.generate_infographic(
                 notebook_id,
-                orientation=orientation,
-                additional_instructions=prompt_extra.strip(),
+                orientation=orient_enum,
+                style=InfographicStyle.SKETCH_NOTE,
+                instructions=style_note or None,
             )
         elif deliverable_type == "slideshow":
-            result = await client.generate.slideshow(
+            status = await client.artifacts.generate_slide_deck(
                 notebook_id,
-                additional_instructions=prompt_extra.strip(),
+                instructions=style_note or None,
             )
         elif deliverable_type == "flashcards":
-            result = await client.generate.flashcards(notebook_id)
+            status = await client.artifacts.generate_flashcards(notebook_id)
         elif deliverable_type == "audio":
-            result = await client.generate.audio(notebook_id)
+            status = await client.artifacts.generate_audio(notebook_id)
         elif deliverable_type == "quiz":
-            result = await client.generate.quiz(notebook_id)
+            status = await client.artifacts.generate_quiz(notebook_id)
         else:
             return {"error": f"Unknown deliverable type: {deliverable_type}"}
+
+        # Wait for generation to complete
+        print(f"Waiting for {deliverable_type} generation (task_id={status.task_id})...", flush=True)
+        artifact = await client.artifacts.wait_for_completion(notebook_id, status.task_id)
 
         return {
             "notebook_id": notebook_id,
             "deliverable_type": deliverable_type,
             "status": "generated",
-            "result_id": getattr(result, "id", None),
-            "download_url": getattr(result, "download_url", None),
-            "data": getattr(result, "data", None),
+            "artifact_id": getattr(artifact, "id", None),
+            "task_id": status.task_id,
         }
 
 
 async def download_deliverable(notebook_id: str, deliverable_type: str, output_path: str) -> dict:
     async with await NotebookLMClient.from_storage() as client:
         if deliverable_type == "infographic":
-            await client.download.infographic(notebook_id, output_path)
+            saved = await client.artifacts.download_infographic(notebook_id, output_path)
         elif deliverable_type == "slideshow":
-            await client.download.slideshow(notebook_id, output_path)
+            saved = await client.artifacts.download_slide_deck(notebook_id, output_path)
         elif deliverable_type == "audio":
-            await client.download.audio(notebook_id, output_path)
+            saved = await client.artifacts.download_audio(notebook_id, output_path)
         else:
             return {"error": f"Download not supported for: {deliverable_type}"}
-        return {"status": "downloaded", "path": output_path}
+        return {"status": "downloaded", "path": saved}
 
 
 async def full_pipeline(
@@ -150,17 +161,22 @@ async def full_pipeline(
         deliverable_result = None
         try:
             if deliverable_type == "infographic":
-                deliverable_result = await client.generate.infographic(
+                status = await client.artifacts.generate_infographic(
                     notebook_id,
-                    additional_instructions=deliverable_style,
+                    orientation=InfographicOrientation.PORTRAIT,
+                    style=InfographicStyle.SKETCH_NOTE,
+                    instructions=deliverable_style or None,
                 )
+                deliverable_result = await client.artifacts.wait_for_completion(notebook_id, status.task_id)
             elif deliverable_type == "slideshow":
-                deliverable_result = await client.generate.slideshow(
+                status = await client.artifacts.generate_slide_deck(
                     notebook_id,
-                    additional_instructions=deliverable_style,
+                    instructions=deliverable_style or None,
                 )
+                deliverable_result = await client.artifacts.wait_for_completion(notebook_id, status.task_id)
             elif deliverable_type == "flashcards":
-                deliverable_result = await client.generate.flashcards(notebook_id)
+                status = await client.artifacts.generate_flashcards(notebook_id)
+                deliverable_result = await client.artifacts.wait_for_completion(notebook_id, status.task_id)
         except Exception as e:
             deliverable_result = {"error": str(e)}
 
