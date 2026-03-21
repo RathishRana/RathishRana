@@ -1,0 +1,174 @@
+{
+  "project": "First-Gen Student Financial Hardship",
+  "generated_at": "2026-03-21 13:57 UTC",
+  "corpus": {
+    "document_count": 3,
+    "total_words": 403,
+    "total_segments": 16,
+    "source_types": {
+      "interview": 3
+    }
+  },
+  "codebook": [
+    {
+      "code_id": "806320c6-35e1-401c-9c7b-a40b5c35c732",
+      "name": "financial stress",
+      "paradigm": "descriptive",
+      "definition": "Expressions of anxiety, worry, or cognitive burden directly related to money.",
+      "inclusion_criteria": "Must reference money, cost, financial resources, or economic state.",
+      "exclusion_criteria": "General academic stress not linked to finances.",
+      "example_anchor": "I count every penny. I can't focus because I'm thinking about the electricity bill.",
+      "frequency": 3,
+      "child_codes": [],
+      "memos": []
+    },
+    {
+      "code_id": "28533b7f-05ab-4454-8931-fb5443f3f20c",
+      "name": "guilt and obligation",
+      "paradigm": "emotion",
+      "definition": "Sense of debt, responsibility, or guilt tied to family sacrifice.",
+      "inclusion_criteria": "References to parental sacrifice, duty, letting family down.",
+      "exclusion_criteria": "General academic pressure without familial framing.",
+      "example_anchor": "If I fail it's not just my failure, it's hers too.",
+      "frequency": 4,
+      "child_codes": [],
+      "memos": []
+    },
+    {
+      "code_id": "3770eb61-980c-4d22-8d1a-2e54852e21ab",
+      "name": "class invisibility",
+      "paradigm": "in_vivo",
+      "definition": "Experiences of social exclusion, othering, or class-based otherness.",
+      "inclusion_criteria": "Comparisons with peers, feeling different, hiding socioeconomic status.",
+      "exclusion_criteria": "",
+      "example_anchor": "There's this invisible wall between me and them.",
+      "frequency": 4,
+      "child_codes": [],
+      "memos": []
+    },
+    {
+      "code_id": "d4f6a90d-2a60-4e34-9f7d-fc62d63ddb34",
+      "name": "material constraint",
+      "paradigm": "descriptive",
+      "definition": "Concrete resource deprivations affecting study (textbooks, food, time).",
+      "inclusion_criteria": "Specific material lacks: food, books, transport, equipment, time from work.",
+      "exclusion_criteria": "",
+      "example_anchor": "I can't afford the textbooks. I skip lunch some days.",
+      "frequency": 4,
+      "child_codes": [],
+      "memos": []
+    },
+    {
+      "code_id": "c44e6809-01eb-4722-af56-ab841e2f68c4",
+      "name": "support system failure",
+      "paradigm": "descriptive",
+      "definition": "Institutional failures to make support visible, accessible, or dignified.",
+      "inclusion_criteria": "Unawareness of support, humiliating processes, inaccessible information.",
+      "exclusion_criteria": "",
+      "example_anchor": "I didn't know about the hardship fund for two years.",
+      "frequency": 2,
+      "child_codes": [],
+      "memos": []
+    },
+    {
+      "code_id": "a1666013-625c-4d94-ae95-c6b565dc068e",
+      "name": "identity code-switching",
+      "paradigm": "in_vivo",
+      "definition": "Effortful performance of a different class identity to fit in.",
+      "inclusion_criteria": "References to masking, pretending, hiding, being silent.",
+      "exclusion_criteria": "",
+      "example_anchor": "You're constantly code-switching, hiding how hard things actually are.",
+      "frequency": 2,
+      "child_codes": [],
+      "memos": []
+    },
+    {
+      "code_id": "f9c2cc55-00cf-4093-8310-5bf5c67bce94",
+      "name": "aspirational persistence",
+      "paradigm": "process",
+      "definition": "Motivation and resilience despite hardship, linked to pride and goals.",
+      "inclusion_criteria": "Language of continuing, pride, being here, not giving up.",
+      "exclusion_criteria": "",
+      "example_anchor": "I'm proud to be here.",
+      "frequency": 3,
+      "child_codes": [],
+      "memos": []
+    }
+  ],
+  "themes": [
+    {
+      "name": "The Weight of Gratitude",
+      "central_concept": "Gratitude-debt as a driver of aspirational persistence under financial hardship",
+      "narrative": "Participants do not experience financial hardship as a purely economic phenomenon. It is deeply entangled with emotional obligations to families who have sacrificed materially for their university attendance. This creates a paradoxical affective state: pride in aspiration co-exists with paralysing guilt. Participants persist despite hardship not in spite of this guilt but, in part, because of it — the debt of gratitude functioning as a form of resilience fuel.",
+      "code_count": 3,
+      "quotes": [
+        "\"I keep going even when I'm exhausted. But sometimes I can't focus in lectures because I'm thinking about the electricity bill.\" — P1"
+      ],
+      "negative_cases": [
+        "P3 expresses pride without guilt framing — suggests obligation is not universal; may be moderated by degree of visible parental sacrifice."
+      ],
+      "is_provisional": false,
+      "quality_warnings": []
+    },
+    {
+      "name": "Material Poverty, Epistemic Exclusion",
+      "central_concept": "Structural inaccessibility of support as a second-order form of poverty",
+      "narrative": "First-generation students face a double disadvantage: they lack material resources (food, textbooks, time) and they lack the cultural capital to navigate institutional support systems. Support mechanisms exist but are invisible by design — buried in websites, requiring students to already know the language of the university. This constitutes a form of structural exclusion that compounds material deprivation.",
+      "code_count": 2,
+      "quotes": [
+        "\"I can't afford the textbooks. I use the library but sometimes they're all checked out. My classmates just buy them on their laptops.\" — P1",
+        "\"I didn't know about the hardship fund for two years. Nobody told me.\" — P2"
+      ],
+      "negative_cases": [
+        "P1 does access the library — not entirely excluded; resourcefulness and workarounds exist."
+      ],
+      "is_provisional": false,
+      "quality_warnings": []
+    },
+    {
+      "name": "The Invisible Tax of Class",
+      "central_concept": "Code-switching as an invisible cognitive tax on first-generation students",
+      "narrative": "Participants describe a continuous, effortful performance of class identity in order to pass as 'normal' students. This code-switching — staying silent about the warehouse job, the electricity bill, the skipped meal — is cognitively and emotionally costly. The invisibility is not merely social but also cognitive: energy spent hiding is energy not spent learning.",
+      "code_count": 2,
+      "quotes": [
+        "\"You're constantly code-switching, hiding how hard things actually are. The invisibility is exhausting.\" — P3",
+        "\"There's this invisible wall between me and them.\" — P1"
+      ],
+      "negative_cases": [
+        "P2 does not use code-switching language; may resist or not conceptualise experience this way — or may have greater economic confidence despite hardship."
+      ],
+      "is_provisional": false,
+      "quality_warnings": []
+    }
+  ],
+  "reliability": {
+    "krippendorffs_alpha": 0.9333,
+    "overall_percent_agreement": 0.75,
+    "pairwise": [
+      {
+        "rater_a": "Dr Aisha Patel",
+        "rater_b": "Dr Ben Okafor",
+        "cohens_kappa": 0.913,
+        "scotts_pi": 0.9121,
+        "percent_agreement": 0.75,
+        "n_segments": 4,
+        "n_agreed": 3,
+        "interpretation": "Almost Perfect"
+      }
+    ],
+    "recommendation": "PASS — reliability meets the α ≥ 0.80 and κ ≥ 0.80 thresholds recommended by Krippendorff (2004) and Landis & Koch (1977). Proceed to full analysis."
+  },
+  "saturation": {
+    "reached": false,
+    "at_document": null,
+    "total_unique_codes": 7,
+    "recommendation": "NOT SATURATED — last document introduced new codes at a 33.3% rate. Continue data collection, prioritising purposive sampling for under-represented perspectives."
+  },
+  "audit_summary": {
+    "DOCUMENT_ADDED": 6,
+    "PROJECT_CREATED": 4,
+    "RELIABILITY_CHECK": 2,
+    "REPORT_GENERATED": 2,
+    "SATURATION_CHECK": 2
+  }
+}

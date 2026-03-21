@@ -1,0 +1,246 @@
+==============================================================================
+  QUALITATIVE RESEARCH REPORT
+  Project: First-Gen Student Financial Hardship
+  Generated: 2026-03-21 13:57 UTC
+==============================================================================
+
+EXECUTIVE SUMMARY
+------------------------------------------------------------------------------
+Data corpus:    3 documents, 403 words, 16 segments
+Codes generated: 7 active codes
+Themes identified: 3 total (3 finalised)
+
+Top 5 codes by frequency:
+  guilt and obligation                        4 applications
+  material constraint                         4 applications
+  class invisibility                          4 applications
+  financial stress                            3 applications
+  aspirational persistence                    3 applications
+
+Final themes:
+  • The Weight of Gratitude: Gratitude-debt as a driver of aspirational persistence under financial hardship
+  • Material Poverty, Epistemic Exclusion: Structural inaccessibility of support as a second-order form of poverty
+  • The Invisible Tax of Class: Code-switching as an invisible cognitive tax on first-generation students
+
+CORPUS DESCRIPTION
+------------------------------------------------------------------------------
+Total documents:  3
+Total words:      403
+Total segments:   16
+
+Source types:
+  interview                      3 document(s)
+
+Purposive sampling rationale:
+  • Purposive sampling: first-generation university students (neither parent attended university) currently experiencing financial hardship (self-reported). Maximum variation on: gender, subject discipline, year of study.
+
+Documents:
+  [interview] Interview P1 — P1 (2024-10-15)
+    Context: 60-min Zoom interview; participant female, Year 2 Medicine
+  [interview] Interview P2 — P2 (2024-10-22)
+    Context: 55-min Zoom interview; participant male, Year 3 Engineering
+  [interview] Interview P3 — P3 (2024-10-29)
+    Context: 65-min in-person interview; participant non-binary, Year 1 Law
+
+METHODOLOGY
+------------------------------------------------------------------------------
+Analytic approach: Reflexive Thematic Analysis (Braun & Clarke, 2006, 2019)
+Trustworthiness criteria: Lincoln & Guba (1985)
+  • Credibility — triangulation, member checking, negative case analysis
+  • Transferability — thick description, purposive sampling records
+  • Dependability — full audit trail (see Audit Trail section)
+  • Confirmability — reflexivity journal, inter-rater reliability
+
+Coding approach: Multi-paradigm (Saldaña, 2021)
+  Paradigms used: Descriptive, In-Vivo, Process, Axial, Theoretical
+
+Inter-rater reliability: Cohen's κ and Krippendorff's α
+  Threshold: κ ≥ 0.80, α ≥ 0.80 (Landis & Koch, 1977; Krippendorff, 2004)
+
+Saturation criterion: Theoretical saturation (Glaser & Strauss, 1967)
+  Operationalised as: ≤5% new codes per document over 3+ consecutive documents
+
+CODEBOOK
+------------------------------------------------------------------------------
+Total active codes: 7
+
+CODE: financial stress
+  Paradigm:   descriptive
+  Frequency:  3 application(s)
+  Definition: Expressions of anxiety, worry, or cognitive burden directly related to money.
+  Include:    Must reference money, cost, financial resources, or economic state.
+  Exclude:    General academic stress not linked to finances.
+  Example:    "I count every penny. I can't focus because I'm thinking about the electricity bill."
+
+CODE: guilt and obligation
+  Paradigm:   emotion
+  Frequency:  4 application(s)
+  Definition: Sense of debt, responsibility, or guilt tied to family sacrifice.
+  Include:    References to parental sacrifice, duty, letting family down.
+  Exclude:    General academic pressure without familial framing.
+  Example:    "If I fail it's not just my failure, it's hers too."
+
+CODE: class invisibility
+  Paradigm:   in_vivo
+  Frequency:  4 application(s)
+  Definition: Experiences of social exclusion, othering, or class-based otherness.
+  Include:    Comparisons with peers, feeling different, hiding socioeconomic status.
+  Example:    "There's this invisible wall between me and them."
+
+CODE: material constraint
+  Paradigm:   descriptive
+  Frequency:  4 application(s)
+  Definition: Concrete resource deprivations affecting study (textbooks, food, time).
+  Include:    Specific material lacks: food, books, transport, equipment, time from work.
+  Example:    "I can't afford the textbooks. I skip lunch some days."
+
+CODE: support system failure
+  Paradigm:   descriptive
+  Frequency:  2 application(s)
+  Definition: Institutional failures to make support visible, accessible, or dignified.
+  Include:    Unawareness of support, humiliating processes, inaccessible information.
+  Example:    "I didn't know about the hardship fund for two years."
+
+CODE: identity code-switching
+  Paradigm:   in_vivo
+  Frequency:  2 application(s)
+  Definition: Effortful performance of a different class identity to fit in.
+  Include:    References to masking, pretending, hiding, being silent.
+  Example:    "You're constantly code-switching, hiding how hard things actually are."
+
+CODE: aspirational persistence
+  Paradigm:   process
+  Frequency:  3 application(s)
+  Definition: Motivation and resilience despite hardship, linked to pride and goals.
+  Include:    Language of continuing, pride, being here, not giving up.
+  Example:    "I'm proud to be here."
+
+
+INTER-RATER RELIABILITY
+------------------------------------------------------------------------------
+Krippendorff's Alpha (α): 0.9333
+Overall % Agreement:      75.0%
+
+Pairwise Results:
+  Dr Aisha Patel vs Dr Ben Okafor:
+    Cohen's κ:      0.9130  (Almost Perfect)
+    Scott's π:      0.9121
+    % Agreement:    75.0%
+    Segments:       4 (3 agreed)
+
+Assessment:
+  PASS — reliability meets the α ≥ 0.80 and κ ≥ 0.80 thresholds recommended by Krippendorff (2004) and Landis & Koch (1977). Proceed to full analysis.
+
+Discrepancies requiring review: 1
+  Segment 974c5c27…
+    Dr Aisha Patel: ['class invisibility', 'support system failure']
+    Dr Ben Okafor: ['support system failure']
+
+THEORETICAL SATURATION
+------------------------------------------------------------------------------
+Total unique codes:   7
+Saturation reached:   False
+Window size:          3 documents
+Threshold:            5% new codes per document
+
+Code emergence by document:
+  Doc 01 |████████████████████████████████████████| 100% (5 new codes)
+  Doc 02 |█████████████████████████               | 25% (1 new codes)
+  Doc 03 |█████████████████████████████████       | 33% (1 new codes)
+
+Assessment:
+  NOT SATURATED — last document introduced new codes at a 33.3% rate. Continue data collection, prioritising purposive sampling for under-represented perspectives.
+
+THEMES
+------------------------------------------------------------------------------
+Total themes: 3
+
+THEME: The Weight of Gratitude  [FINAL]
+  Central concept: Gratitude-debt as a driver of aspirational persistence under financial hardship
+  Coverage: 4 segments across 3 documents
+  Grounding codes (3): financial stress, guilt and obligation, aspirational persistence
+
+  Narrative:
+    Participants do not experience financial hardship as a purely economic phenomenon. It is deeply entangled with emotional obligations to families who have sacrificed materially for their university attendance. This creates a paradoxical affective state: pride in aspiration co-exists with paralysing guilt. Participants persist despite hardship not in spite of this guilt but, in part, because of it — the debt of gratitude functioning as a form of resilience fuel.
+
+  Illustrative quotes:
+    "I keep going even when I'm exhausted. But sometimes I can't focus in lectures because I'm thinking about the electricity bill." — P1
+
+  Negative/disconfirming cases:
+    • P3 expresses pride without guilt framing — suggests obligation is not universal; may be moderated by degree of visible parental sacrifice.
+
+THEME: Material Poverty, Epistemic Exclusion  [FINAL]
+  Central concept: Structural inaccessibility of support as a second-order form of poverty
+  Coverage: 4 segments across 2 documents
+  Grounding codes (2): material constraint, support system failure
+
+  Narrative:
+    First-generation students face a double disadvantage: they lack material resources (food, textbooks, time) and they lack the cultural capital to navigate institutional support systems. Support mechanisms exist but are invisible by design — buried in websites, requiring students to already know the language of the university. This constitutes a form of structural exclusion that compounds material deprivation.
+
+  Illustrative quotes:
+    "I can't afford the textbooks. I use the library but sometimes they're all checked out. My classmates just buy them on their laptops." — P1
+    "I didn't know about the hardship fund for two years. Nobody told me." — P2
+
+  Negative/disconfirming cases:
+    • P1 does access the library — not entirely excluded; resourcefulness and workarounds exist.
+
+THEME: The Invisible Tax of Class  [FINAL]
+  Central concept: Code-switching as an invisible cognitive tax on first-generation students
+  Coverage: 3 segments across 3 documents
+  Grounding codes (2): class invisibility, identity code-switching
+
+  Narrative:
+    Participants describe a continuous, effortful performance of class identity in order to pass as 'normal' students. This code-switching — staying silent about the warehouse job, the electricity bill, the skipped meal — is cognitively and emotionally costly. The invisibility is not merely social but also cognitive: energy spent hiding is energy not spent learning.
+
+  Illustrative quotes:
+    "You're constantly code-switching, hiding how hard things actually are. The invisibility is exhausting." — P3
+    "There's this invisible wall between me and them." — P1
+
+  Negative/disconfirming cases:
+    • P2 does not use code-switching language; may resist or not conceptualise experience this way — or may have greater economic confidence despite hardship.
+
+
+AUDIT TRAIL SUMMARY
+------------------------------------------------------------------------------
+Decision log entry counts by type:
+  DOCUMENT_ADDED                         6
+  PROJECT_CREATED                        4
+  RELIABILITY_CHECK                      2
+  REPORT_GENERATED                       1
+  SATURATION_CHECK                       2
+
+  Total entries: 15
+
+RESEARCHER REFLEXIVITY
+------------------------------------------------------------------------------
+Researcher: Dr Aisha Patel (lead researcher)
+  [2026-03-21T13:57:42.429776+00:00] I am a first-generation university graduate myself. I am aware this may generate empathy that facilitates rapport but also risks over-identification with participants. I will bracket these assumptions through regular peer debriefing.
+
+Researcher: Dr Ben Okafor (independent coder)
+  [2026-03-21T13:57:42.429785+00:00] I come from a professional-class background and did not experience financial hardship as a student. I may under-code experiences I have not personally encountered. I will flag uncertainties explicitly in my rationale notes.
+
+
+QUALITY & CREDIBILITY CHECK
+------------------------------------------------------------------------------
+All themes pass quality criteria (Braun & Clarke, 2006).
+
+==============================================================================
+References
+------------------------------------------------------------------------------
+Braun, V. & Clarke, V. (2006). Using thematic analysis in psychology.
+  Qualitative Research in Psychology, 3(2), 77–101.
+Braun, V. & Clarke, V. (2019). Reflecting on reflexive thematic analysis.
+  Qualitative Research in Sport, Exercise and Health, 11(4), 589–597.
+Cohen, J. (1960). A coefficient of agreement for nominal scales.
+  Educational and Psychological Measurement, 20(1), 37–46.
+Glaser, B. & Strauss, A. (1967). The Discovery of Grounded Theory.
+Krippendorff, K. (2004). Content Analysis (2nd ed.).
+Landis, J. & Koch, G. (1977). The measurement of observer agreement.
+  Biometrics, 33(1), 159–174.
+Lincoln, Y. & Guba, E. (1985). Naturalistic Inquiry.
+O'Connor, C. & Joffe, H. (2020). Intercoder reliability in qualitative research.
+  International Journal of Qualitative Methods, 19.
+Saldaña, J. (2021). The Coding Manual for Qualitative Researchers (4th ed.).
+Saunders, B. et al. (2018). Saturation in qualitative research.
+  Quality & Quantity, 52, 1893–1907.
+==============================================================================
